@@ -185,29 +185,49 @@ java Main
 
 ---
 
-## 📄 Research Reference
+## 📚 References
 
-[1] V. Mnih et al., "Human-level control through deep reinforcement learning," Nature, vol. 518, no. 7540, pp. 529–533, 2015.
-[2] G. Tesauro et al., "A hybrid reinforcement learning approach to autonomic resource allocation," in Proc. 4th Int. Conf. Autonomic Computing (ICAC), 2007, pp. 65–73.
-[3] X. Dutreilh et al., "Using reinforcement learning for autonomic resource allocation in clouds: towards a fully automated workflow," in Proc. ICAS 2011, pp. 68–77.
-[4] E. Barrett, E. Howley, and J. Duggan, "Applying reinforcement learning towards automating resource allocation and application scalability in the cloud," Concurrency Comput.: Pract. Exp., vol. 25, no. 12, pp. 1656–1675, 2013.
-[5] N. Liu et al., "A hierarchical framework of cloud resource allocation and power management using deep reinforcement learning," in Proc. IEEE ICDCS 2017, pp. 372–382.
-[6] M. Cheng, J. Li, and S. Nazarian, "DRL-cloud: Deep reinforcement learning-based resource provisioning and task scheduling for cloud service providers," in Proc. ASP-DAC 2018, pp. 129–134.
-[7] H. Arabnejad, C. Pahl, P. Jamshidi, and G. Estrada, "A comparison of reinforcement learning techniques for fuzzy cloud auto-scaling," in Proc. IEEE/ACM CCGrid 2017, pp. 64–73.
-[8] H. Van Hasselt, A. Guez, and D. Silver, "Deep reinforcement learning with double Q-learning," in Proc. AAAI 2016, pp. 2094–2100.
-[9] Z. Wang et al., "Dueling network architectures for deep reinforcement learning," in Proc. ICML 2016, pp. 1995–2003.
-[10] Y. Zhang, F. Gu, J. Liu, and M. Huang, "Asynchronous advantage actor-critic-based resource management for edge computing," IEEE Internet Things J., vol. 7, no. 4, pp. 3469–3480, 2020.
-[11] J. Kumar and A. K. Singh, "QoS-aware cloud service composition using a fuzzy-based multi-objective optimization approach," J. Netw. Comput. Appl., vol. 72, pp. 42–53, 2022.
-[12] Z. Peng et al., "Random task scheduling scheme based on reinforcement learning in cloud computing," Concurrency Comput.: Pract. Exp., vol. 27, no. 5, pp. 1097–1110, 2023.
-[13] R. S. Sutton and A. G. Barto, Reinforcement Learning: An Introduction, 2nd ed. Cambridge, MA: MIT Press, 2018.
-[14] C. J. C. H. Watkins and P. Dayan, "Q-learning," Mach. Learn., vol. 8, no. 3–4, pp. 279–292, 1992.
-[15] R. Buyya et al., "Cloud computing and emerging IT platforms: Vision, hype, and reality," Future Gener. Comput. Syst., vol. 25, no. 6, pp. 599–616, 2009.
-[16] T. Schaul, J. Quan, I. Antonoglou, and D. Silver, "Prioritized experience replay," in Proc. ICLR 2016.
-[17] T. P. Lillicrap et al., "Continuous control with deep reinforcement learning," in Proc. ICLR 2016.
-[18] T. X. Tran and D. Pompili, "Joint task offloading and resource allocation for multi-server mobile-edge computing networks," IEEE Trans. Veh. Technol., vol. 68, no. 1, pp. 856–868, 2019.
-[19] M. G. Bellemare, W. Dabney, and R. Munos, "A distributional perspective on reinforcement learning," in Proc. ICML 2017, pp. 449–458.
-[20] X. Chen et al., "Optimized computation offloading performance in virtual edge computing systems via deep reinforcement learning," IEEE Internet Things J., vol. 6, no. 3, pp. 4005–4018, 2018.
-[21] D. P. Kingma and J. Ba, "Adam: A method for stochastic optimization," in Proc. ICLR 2015.
+[1] V. Mnih et al., "Human-level control through deep reinforcement learning," Nature, vol. 518, no. 7540, pp. 529–533, 2015.  
+
+[2] G. Tesauro et al., "A hybrid reinforcement learning approach to autonomic resource allocation," in Proc. 4th Int. Conf. Autonomic Computing (ICAC), 2007, pp. 65–73.  
+
+[3] X. Dutreilh et al., "Using reinforcement learning for autonomic resource allocation in clouds: towards a fully automated workflow," in Proc. ICAS 2011, pp. 68–77.  
+
+[4] E. Barrett, E. Howley, and J. Duggan, "Applying reinforcement learning towards automating resource allocation and application scalability in the cloud," Concurrency Comput.: Pract. Exp., vol. 25, no. 12, pp. 1656–1675, 2013.  
+
+[5] N. Liu et al., "A hierarchical framework of cloud resource allocation and power management using deep reinforcement learning," in Proc. IEEE ICDCS 2017, pp. 372–382.  
+
+[6] M. Cheng, J. Li, and S. Nazarian, "DRL-cloud: Deep reinforcement learning-based resource provisioning and task scheduling for cloud service providers," in Proc. ASP-DAC 2018, pp. 129–134.  
+
+[7] H. Arabnejad, C. Pahl, P. Jamshidi, and G. Estrada, "A comparison of reinforcement learning techniques for fuzzy cloud auto-scaling," in Proc. IEEE/ACM CCGrid 2017, pp. 64–73.  
+
+[8] H. Van Hasselt, A. Guez, and D. Silver, "Deep reinforcement learning with double Q-learning," in Proc. AAAI 2016, pp. 2094–2100.  
+
+[9] Z. Wang et al., "Dueling network architectures for deep reinforcement learning," in Proc. ICML 2016, pp. 1995–2003.  
+
+[10] Y. Zhang, F. Gu, J. Liu, and M. Huang, "Asynchronous advantage actor-critic-based resource management for edge computing," IEEE Internet Things J., vol. 7, no. 4, pp. 3469–3480, 2020.  
+
+[11] J. Kumar and A. K. Singh, "QoS-aware cloud service composition using a fuzzy-based multi-objective optimization approach," J. Netw. Comput. Appl., vol. 72, pp. 42–53, 2022.  
+
+[12] Z. Peng et al., "Random task scheduling scheme based on reinforcement learning in cloud computing," Concurrency Comput.: Pract. Exp., vol. 27, no. 5, pp. 1097–1110, 2023.  
+
+[13] R. S. Sutton and A. G. Barto, *Reinforcement Learning: An Introduction*, 2nd ed. Cambridge, MA: MIT Press, 2018.  
+
+[14] C. J. C. H. Watkins and P. Dayan, "Q-learning," Mach. Learn., vol. 8, no. 3–4, pp. 279–292, 1992.  
+
+[15] R. Buyya et al., "Cloud computing and emerging IT platforms: Vision, hype, and reality," Future Gener. Comput. Syst., vol. 25, no. 6, pp. 599–616, 2009.  
+
+[16] T. Schaul, J. Quan, I. Antonoglou, and D. Silver, "Prioritized experience replay," in Proc. ICLR 2016.  
+
+[17] T. P. Lillicrap et al., "Continuous control with deep reinforcement learning," in Proc. ICLR 2016.  
+
+[18] T. X. Tran and D. Pompili, "Joint task offloading and resource allocation for multi-server mobile-edge computing networks," IEEE Trans. Veh. Technol., vol. 68, no. 1, pp. 856–868, 2019.  
+
+[19] M. G. Bellemare, W. Dabney, and R. Munos, "A distributional perspective on reinforcement learning," in Proc. ICML 2017, pp. 449–458.  
+
+[20] X. Chen et al., "Optimized computation offloading performance in virtual edge computing systems via deep reinforcement learning," IEEE Internet Things J., vol. 6, no. 3, pp. 4005–4018, 2018.  
+
+[21] D. P. Kingma and J. Ba, "Adam: A method for stochastic optimization," in Proc. ICLR 2015.  
  
 
 ---
