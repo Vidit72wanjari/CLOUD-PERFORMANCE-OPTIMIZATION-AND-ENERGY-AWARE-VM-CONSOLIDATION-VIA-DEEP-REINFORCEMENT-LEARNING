@@ -1,8 +1,3 @@
-Your report is dense and technical. A GitHub README should not replicate it — that would fail. A README must **sell the project, explain structure, and make it runnable**. Right now, your report is research-grade; your README should be **developer-facing + recruiter-friendly**.
-
-Here’s a clean, structured README based on your document:
-
----
 
 # 📌 Cloud Performance Optimization using Deep Reinforcement Learning
 
@@ -60,34 +55,8 @@ So the real contribution is:
 * ✅ Complexity analysis (DQN vs DDQN runtime)
 
 ---
+<img width="618" height="466" alt="image" src="https://github.com/user-attachments/assets/8001aca2-8bea-4f54-a33d-9e4c180f368e" />
 
-## 🏗️ System Architecture
-
-```
-+------------------------+
-| Cloud Environment      |
-| (Simulator)            |
-+----------+-------------+
-           |
-           v
-+------------------------+
-| DRL Agent              |
-| (DQN / DDQN)           |
-+----------+-------------+
-           |
-           v
-+------------------------+
-| Experience Replay      |
-| (Uniform / PER)        |
-+----------+-------------+
-           |
-           v
-+------------------------+
-| Policy Evaluator       |
-+------------------------+
-```
-
----
 
 ## ⚙️ Technologies Used
 
