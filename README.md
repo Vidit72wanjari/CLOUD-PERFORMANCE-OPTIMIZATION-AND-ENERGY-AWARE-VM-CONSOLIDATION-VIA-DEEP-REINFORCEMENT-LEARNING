@@ -33,48 +33,67 @@ The agent interacts with a simulated cloud environment and improves its policy t
 ## 📊 Dataset / Data Generation
 
 This project does **not use a fixed external dataset**.
-
 Instead, data is generated dynamically using a **stochastic cloud simulator**:
 
-* **Task arrivals** → Poisson distribution (λ = 0.5 – 4.0)
-* **Resource demand** → Log-normal distribution (μ = 0.4, σ = 0.3)
+* Task arrivals → Poisson distribution (λ = 0.5 – 4.0)
+* Resource demand → Log-normal distribution (μ = 0.4, σ = 0.3)
 
-Each state is represented as:
+### 🧾 State Representation
 
 ```
-s_t = [cpu_i, mem_i, tasks_i]  for each node
+s_t = [cpu_i, mem_i, tasks_i]
 ```
+
+---
 
 ### 🔁 Training Data Format
-
-During training, the system internally generates transitions:
 
 ```
 (s_t, a_t, r_t, s_t+1)
 ```
 
-These represent:
+---
 
-* State
-* Action taken
-* Reward received
-* Next state
+### 📁 Exported Dataset (CSV)
 
-### 📁 Extracted Dataset 
+To support evaluation, a dataset is exported from simulation logs.
 
-A dataset can be exported from logs in CSV format:
+**Columns:**
 
 ```
-episode,step,cpu_avg,mem_avg,tasks,action,reward,next_cpu
-1,1,0.72,0.65,18,SCALE_UP,-0.8,0.75
-...
+episode,step,cpu_avg,mem_avg,tasks,action,reward,next_cpu_avg,violations
 ```
-
-Total size:
-
-* **200 episodes × 50 steps = 10,000 samples**
 
 ---
+
+### 📄 Sample Dataset (first rows)
+
+```
+episode,step,cpu_avg,mem_avg,tasks,action,reward,next_cpu_avg,violations
+1,1,0.91,0.72,24,SCALE_UP,-1.2,0.88,1
+1,2,0.88,0.70,22,MIGRATE,-0.8,0.82,1
+1,3,0.82,0.68,20,IDLE,-0.5,0.85,1
+1,4,0.85,0.69,21,SCALE_UP,-0.6,0.80,1
+1,5,0.80,0.66,19,MIGRATE,0.2,0.74,0
+1,6,0.74,0.64,18,IDLE,1.5,0.70,0
+1,7,0.70,0.60,17,IDLE,1.5,0.68,0
+1,8,0.68,0.58,16,SCALE_DOWN,1.2,0.65,0
+1,9,0.65,0.55,15,IDLE,1.5,0.66,0
+1,10,0.66,0.57,16,MIGRATE,1.3,0.63,0
+```
+
+---
+
+### 📦 Dataset Size
+
+* 200 episodes
+* 50 steps per episode
+
+👉 **Total: 10,000 samples**
+
+---
+
+
 
 ## ⚙️ Technologies Used
 
